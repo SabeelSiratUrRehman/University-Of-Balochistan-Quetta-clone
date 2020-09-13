@@ -1,0 +1,124 @@
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body{
+  font: 1.6rem ;
+  font-family: 'Markazi Text', serif;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(54, 53, 95);
+}
+.Header{
+  border-bottom:.3rem #f9f9f9 solid;
+}
+.Headers{
+    width: 100%;
+    /* background: #8360c3;
+    background: -webkit-linear-gradient(to top, #2ebf91, #8360c3);
+    background: linear-gradient(to top, #2ebf91, #8360c3);  */
+    height: 20rem;
+    display: flex;
+    align-items: center;  
+}
+.navbar {
+    overflow: hidden;
+    background: #4B79A1;
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    background: linear-gradient(to right, #283E51, #4B79A1);
+    font-family: Arial;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.7rem;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .Notification{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    background: #0f0c29;
+     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    height: 2.5rem;
+  }
+  .Alert{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: #0f0c29; 
+    height: 3rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .alert{
+    font-weight: 600;
+    color: white;
+    width: auto;
+    font-size: 2rem;
+    position: relative;
+    animation: 17s infinite;
+    animation-delay: 0s;
+    animation-name: mymove;
+  }
+  .alert a{
+    color: blue;
+    text-decoration: none;
+  }
+  @keyframes mymove {
+
+    from {left:  0;}
+    to {left: 100%;}
+  }

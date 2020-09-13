@@ -1,0 +1,136 @@
+body{
+font: 1.6rem ;
+font-family: 'Markazi Text', serif;
+height: 100vh;
+margin: 0;
+}
+.Main{
+    display: flex;
+    border-top :0.3rem white solid;
+    justify-content: space-between;
+    border-bottom :0.3rem white solid;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    padding: 1rem;
+}
+.Sidebar{
+    justify-content: center;
+    width: 17%;
+    height: 66rem;
+    background-color: white;
+}
+.Detail{
+    justify-content: center;
+    width: 60%;
+    height: 66rem;
+}
+.notification{
+    height: 66rem;
+    width: 17%;
+    background-color: black;
+    overflow: hidden;
+}
+/* .images{
+    border-bottom: .5rem none;
+} */
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    body { margin: 0; } 
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left; height: 50rem; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 30s slidy infinite; 
+    }
+
+
+
+
+
+
+
+.AboutUob{
+    width: 100%;
+    height: 3rem;
+    background-color: tomato;
+    margin-bottom: 3rem;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button{
+    width: 100%;
+    height: 4rem;
+    background-color: red;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 3%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.link{
+    width: 100%;
+    height: 100%;
+    animation: Mymove 10s infinite;
+}
+.link a{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    animation: Mymove 17s infinite;
+}
+@keyframes Mymove {
+    from {top: 0px;}
+    to {top: 700px;}
+}
+.home a{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    max-width: 100%;
+    height: 50px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size:1vw;
+    font-weight: 600;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.about-detail{
+    color: white;
+    font-size: 1.2vw;
+}
+.home :hover{
+ 
+ color: red;
+}
+.link :hover{
+    color: red;
+}

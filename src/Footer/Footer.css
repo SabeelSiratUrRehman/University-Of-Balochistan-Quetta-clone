@@ -1,0 +1,47 @@
+.Footer{
+    width: 98%;
+    height: 30rem;
+    background-color: rgba(0, 0, 0, 0.582);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-left: .4%;
+    align-items: center;
+}
+.linkss{
+    display: flex;
+    justify-content: space-evenly;
+}
+.webdeveloper a{
+    background: none;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.webdeveloper a:hover{
+    color: tomato;
+}
+.phone{
+    font-size: 2rem;
+    color: white;
+}
+.phone a{
+    font-size: 2rem;
+    color: white;
+}
+.phone a:hover{
+    font-size: 2rem;
+    color: red;
+}
+.Abouts{
+    font-size: 2.5rem;
+    color: white;
+    display: flex;
+}
+.quetta{
+    font-size: 2.5rem;
+    color: yellow;
+}
+.saryab{
+    color: white;
+}

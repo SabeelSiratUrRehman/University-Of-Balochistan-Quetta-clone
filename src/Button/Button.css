@@ -1,0 +1,18 @@
+.First{
+    display: flex;
+    justify-content: center;
+}
+.btns a{
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btns a:hover{
+    color: red;
+    border: red;
+}
